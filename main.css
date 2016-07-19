@@ -1,0 +1,226 @@
+/*body 
+{
+	background-image: url(rJRFZZ8.png); /*You will specify your image path here.
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header img {
+  float: left;
+  width: 10%;
+  height: 5%;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 0%;
+	  left: 1%;
+	color: #fff;
+text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+font: 30px 'BlackJackRegular';
+  
+}
+
+hr{ 
+clear:both;
+}
+
+#menu ul {
+	height: auto;
+    padding: 0.2% 1%;
+    margin: 0px;
+    text-align: top-right;
+    width: auto;
+}
+
+
+
+#menu ul {
+	position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+    left:79%;
+    text-align:top-right;
+}
+
+#menu ul li {
+	position:top;
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+
+#menu ul li a {
+	position:relative;
+	top=0%;
+    display:block;
+    float:right;
+    margin:0;
+    padding:20px 10px 6px 10px;
+    border-left:1px solid #E2D8EC;
+    border-right:1px solid #6D677E;
+    text-decoration:none;
+    color:#FFFF00;
+    font-size:.8em;
+    font-weight:bold;
+    text-transform:uppercase;
+    line-height:0.1em;
+}
+
+#menu ul li a:hover {
+    color:#000;
+    background-color:#E6D8F5;
+    border-left:1px solid #fff;
+    padding-top:18px;
+    padding-bottom:8px;
+}
+
+
+.imgWrap {
+  position: relative;
+  height: 260px;
+  width: 457px;
+}
+
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.imgWrap1 {
+  position: relative;
+  height: 290px;
+  width: 457px;
+}
+
+
+.imgDescription1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap1:hover .imgDescription1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.imgWrap2 {
+  position: relative;
+  height: 270px;
+  width: 457px;
+}
+
+
+.imgDescription2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+a{
+	color:red;
+	text-transform: uppercase;
+}
+
+.imgWrap2:hover .imgDescription2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imgWrap3 {
+  position: relative;
+  height: 230px;
+  width: 457px;
+}
+
+
+.imgDescription3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap3:hover .imgDescription3 {
+  visibility: visible;
+  opacity: 1;
+}
+
